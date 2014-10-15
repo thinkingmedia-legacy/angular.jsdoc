@@ -111,4 +111,9 @@ ajsdoc.Scope = function()
     this.$broadcast = function(name, args)
     {
     };
+
+    /**
+     * @type {ajsdoc.Scope}
+     */
+    this.$root = new ajsdoc.Scope();
 };

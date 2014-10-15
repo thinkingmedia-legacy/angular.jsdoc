@@ -1,8 +1,4 @@
 /**
- *
- */
-
-/**
  * @class ajsdoc.$document
  * @extends Document
  * @constructor
