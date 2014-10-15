@@ -4,6 +4,10 @@
 
 /**
  * @class ajsdoc.Scope
+ * @alias ajsdoc.rootScope
+ * @alias ajsdoc.$rootScope
+ * @alias ajsdoc.$scope
+ *
  * @see $rootScope.Scope
  * @constructor
  */
