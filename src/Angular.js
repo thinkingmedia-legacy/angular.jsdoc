@@ -17,7 +17,7 @@
  *  controller: ajsdoc.Directive.Controller,
  *  controllerAs: string,
  *  link: ajsdoc.Directive.Link,
- *  templateUrl: (string|function()),
+ *  templateUrl: (string|function(ajsdoc.jqLite,ajsdoc.Attributes)),
  *  compile: function(ajsdoc.jqLite,ajsdoc.Attributes)
  * }} ajsdoc.Directive
  **/

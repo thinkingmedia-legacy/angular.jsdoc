@@ -34,6 +34,17 @@ ajsdoc.Scope = function()
 	};
 
     /**
+     * @param {(Array.<string>|function(scope:ajsdoc.Scope))} watchExp
+     * @param {function(newValues:Array,oldValues:Array,scope:ajsdoc.Scope)}listener
+     * @returns {function()}
+     * @see $rootScope.Scope#$watchGroup
+     * @version 1.3
+     */
+    this.$watchGroup = function(watchExp, listener)
+    {
+    };
+
+    /**
      * @param {string|function(ajsdoc.Scope)} obj
      * @param {ajsdoc.Scope.watchCollectionListener} listener
      * @returns {function()}
@@ -116,4 +127,9 @@ ajsdoc.Scope = function()
      * @type {ajsdoc.Scope}
      */
     this.$root = new ajsdoc.Scope();
+
+    /**
+     * @type {ajsdoc.Scope}
+     */
+    this.$parent = new ajsdoc.Scope();
 };
